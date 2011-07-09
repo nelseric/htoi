@@ -1,0 +1,2 @@
+https://docs.google.com/document/d/1cghwq89eMr4hxDjcfy6FDOBrtCcvl1SwL0xUylenkPo/edit?hl=en_US
+Write a C function called htoi(s) that accepts a hex string (with an optional leading 0x or 0X) and returns the equivalent integer value. The function should accept both upper and lower case hex digits (and of course 0-9). Turn in the source, and a Makefile file that will compile the program, along with a “run” target that will run the program with sample input to demonstrate that it works.
