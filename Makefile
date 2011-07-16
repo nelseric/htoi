@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall -ggdb -std=c99
-LDLIBS=
+LDLIBS=-lreadline
 LDFLAGS=
 
 SOURCES=main.c htoi.c
@@ -21,7 +21,7 @@ $(TARGET): $(OBJECTS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 run: all
-	./$(TARGET) < count_list.c
+	./$(TARGET) 
 clean:
 	rm $(OBJECTS) $(TARGET)
 
